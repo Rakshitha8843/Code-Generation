@@ -1,5 +1,5 @@
 # Code-Generation
----Description---
+---Description--- <br>
 Your employer needs a backend for a translator for a very SIC machine (Simplified Instructional Computer). Input to the translator will be arithmetic expressions in postfix form and the output will be assembly language code.
 The target machine has a single register and the following instructions, where the operand is either an identifier or a storage location.
 
@@ -19,11 +19,11 @@ ST store the contents of the register in the operand location
 
 An arithmetic operation replaces the contents of the register with the expression result. Temporary storage locationsare allocated by the assembler for an operand of the form “$n” where n is a single digit.
 
----Input---
+---Input---<br>
 The input file consists of several legitimate postfix expressions, each on a separate line. Expression
 operands are single letters and operators are the normal arithmetic operators (+, -, *, /)  and unary negation (@).
 
----Output---
+---Output---<br>
 Output must be assembly language code that meets the following requirements:
 
 1. One instruction per line with the instruction mnemonic separated from the operand (if any)
